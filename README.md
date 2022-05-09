@@ -13,6 +13,8 @@ SUBSCRIPTION_NAME="SOME_TOPIC_SUBSCRIPTION_NAME" \
 npm start
 ```
 
+This requires an access key with "LISTEN" claim.
+
 ## Unusage
 
 If it's not documented, it's not supported. Please PR any usages not implemented.
