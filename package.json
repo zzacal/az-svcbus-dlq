@@ -1,0 +1,33 @@
+{
+  "name": "az-svcbus-dlq-dq",
+  "version": "1.0.0",
+  "description": "Azure Service Bus DLQ Dequeue",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "dev": "nodemon .",
+    "prestart": "npm run build",
+    "start": "node ."
+  },
+  "keywords": [
+    "azure",
+    "service",
+    "bus",
+    "dlq",
+    "dead",
+    "letter",
+    "dequeue"
+  ],
+  "author": "Zac Zacal <jizacal@gmail.com> (https://github.com/zzacal)",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.16",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.4"
+  },
+  "dependencies": {
+    "@azure/service-bus": "^7.5.1",
+    "dotenv": "^16.0.0"
+  }
+}
